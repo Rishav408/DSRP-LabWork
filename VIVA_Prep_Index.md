@@ -1,34 +1,27 @@
-# DSRP Lab VIVA Preparation Guide
-## Assignments: 3, 6, 7a, 7b, 8
+# DSRP VIVA Preparation Index
 
-This guide is designed to help you prepare for your Data Science and R Programming (DSRP) VIVA. It breaks down each assignment by theory, logic, and coding implementation.
+This index provides direct links to the study guides for all lab assignments. Each guide contains theoretical objectives, coding workflows, key functions, and potential VIVA questions.
 
-### Navigation
-1. [Assignment 3: Association Rule Mining (Apriori)](file:///d:/College/Sem%206/DSRP/DSRP-LabWork/VIVA_Assignment_3.md)
-2. [Assignment 6: Naive Bayesian Classifier](file:///d:/College/Sem%206/DSRP/DSRP-LabWork/VIVA_Assignment_6.md)
-3. [Assignment 7a: Recursive Partitioning (Decision Trees)](file:///d:/College/Sem%206/DSRP/DSRP-LabWork/VIVA_Assignment_7a.md)
-4. [Assignment 7b: K-Means Clustering](file:///d:/College/Sem%206/DSRP/DSRP-LabWork/VIVA_Assignment_7b.md)
-5. [Assignment 8: Random Forest](file:///d:/College/Sem%206/DSRP/DSRP-LabWork/VIVA_Assignment_8.md)
+### 📚 Study Guides
+
+1.  **[Assignment 1: R Fundamentals](./VIVA_Assignment_1.md)**
+    *   Basic syntax, data structures (Vectors, Lists, Frames), and loops.
+2.  **[Assignment 2: Hypothesis Testing](./VIVA_Assignment_2.md)**
+    *   T-Tests, ANOVA, Chi-Square, and Correlation measurements.
+3.  **[Assignment 3: Association Rule Mining](./VIVA_Assignment_3.md)**
+    *   Market basket analysis using the Apriori algorithm.
+4.  **[Assignment 4: Linear Regression Analysis](./VIVA_Assignment_4.md)**
+    *   Modeling continuous variables with SLR and MLR.
+5.  **[Assignment 5: Logistic Regression](./VIVA_Assignment_5.md)**
+    *   Binary classification and evaluation metrics (ROC/AUC).
+6.  **[Assignment 6: Naive Bayesian Classifier](./VIVA_Assignment_6.md)**
+    *   Probabilistic classification based on prior and evidence.
+7.  **[Assignment 7a: Decision Trees](./VIVA_Assignment_7a.md)**
+    *   Recursive partitioning for non-linear boundaries.
+8.  **[Assignment 7b: K-Means Clustering](./VIVA_Assignment_7b.md)**
+    *   Unsupervised grouping and the Elbow Method.
+9.  **[Assignment 8: Random Forest](./VIVA_Assignment_8.md)**
+    *   Ensemble learning for robust classification accuracy.
 
 ---
-
-### General R Tips for VIVA
-- **Libraries:** Always remember the main package for each algorithm (e.g., `arules` for Apriori, `e1071` for Naive Bayes, `rpart` for Decision Trees, `randomForest` for RF).
-- **Data Types:** Be clear on `factor` vs. `numeric`. Most classification models in R require the target variable to be a `factor`.
-- **Scaling:** Remember that distance-based algorithms like K-Means require `scale()`, while tree-based ones (DT, RF) do not.
-- **Visualization:** Know your plotting functions: `inspect()`, `plot()`, `fviz_cluster()`, `varImpPlot()`.
-
----
-
-### Bonus: Quick R Command Palette
-| Task | Command |
-| :--- | :--- |
-| Load Package | `library(package_name)` |
-| View File Head | `head(df)` |
-| Structure of Data | `str(df)` |
-| Summary Statistics | `summary(df)` |
-| Check for NAs | `colSums(is.na(df))` |
-| Drop NAs | `na.omit(df)` |
-| Convert to Factor | `as.factor(column)` |
-| Split Training Data | `sample.split` or `createDataPartition` |
-| Table of counts | `table(df$column)` |
+*Good luck with your VIVA!*
